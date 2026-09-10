@@ -1,0 +1,135 @@
+- repo: rosa_2019_1
+  subrepo: contrib/release
+  srcname: rhit
+  binnames:
+    - rhit
+  visiblename: rhit
+  version: 2.0.3
+  origversion: 2.0.3-1
+  status: outdated
+  summary: A nginx log explorer
+  maintainers:
+    - a.proklov@rosa.ru
+  licenses:
+    - foo
+  categories:
+    - System/Servers
+- repo: rosa_13
+  subrepo: contrib/release
+  srcname: rhit
+  binnames:
+    - rhit
+  visiblename: rhit
+  version: 2.0.4
+  origversion: 2.0.4-1
+  status: newest
+  summary: A nginx log explorer
+  maintainers:
+    - a.proklov@rosa.ru
+  licenses:
+    - MIT
+  categories:
+    - System/Servers
+- repo: arch
+  subrepo: extra
+  srcname: rhit
+  binname: rhit
+  visiblename: rhit
+  version: 2.0.4
+  origversion: 2.0.4-2
+  status: newest
+  summary: A nginx log explorer
+  licenses:
+    - MIT
+- repo: crux_37
+  subrepo: contrib
+  srcname: rhit
+  visiblename: rhit
+  version: 2.0.3
+  origversion: null
+  status: outdated
+  summary: A nginx log explorer
+  maintainers:
+    - tbier@posteo.de
+- repo: crux_38
+  subrepo: contrib
+  srcname: rhit
+  visiblename: rhit
+  version: 2.0.4
+  origversion: null
+  status: newest
+  summary: A nginx log explorer
+  maintainers:
+    - tbier@posteo.de
+- repo: homebrew
+  srcname: rhit
+  visiblename: rhit
+  version: 2.0.4
+  origversion: null
+  status: newest
+  summary: Nginx log explorer
+- repo: homebrew
+  srcname: rhit
+  visiblename: rhit
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Nginx log explorer
+- repo: macports
+  srcname: sysutils/rhit
+  binname: rhit
+  visiblename: rhit
+  version: 2.0.4
+  origversion: null
+  status: newest
+  summary: A nginx log explorer
+  maintainers:
+    - herbygillot@github
+  licenses:
+    - MIT
+  categories:
+    - sysutils
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: rhit
+  binname: rhit
+  visiblename: rhit
+  version: 2.0.4
+  origversion: 2.0.4-2
+  status: newest
+  summary: A nginx log explorer
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: rhit
+  binname: rhit
+  visiblename: rhit
+  version: 2.0.4
+  origversion: 2.0.4-2
+  status: newest
+  summary: A nginx log explorer
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: rhit
+  binname: rhit
+  visiblename: rhit
+  version: 2.0.4
+  origversion: 2.0.4-2
+  status: newest
+  summary: A nginx log explorer
+  licenses:
+    - MIT
+- repo: parabola
+  subrepo: extra
+  srcname: rhit
+  binname: rhit
+  visiblename: rhit
+  version: 2.0.4
+  origversion: 2.0.4-2
+  status: newest
+  summary: A nginx log explorer
+  licenses:
+    - MIT
