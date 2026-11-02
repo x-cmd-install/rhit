@@ -1,35 +1,3 @@
-- repo: rosa_2019_1
-  subrepo: contrib/release
-  srcname: rhit
-  binnames:
-    - rhit
-  visiblename: rhit
-  version: 2.0.3
-  origversion: 2.0.3-1
-  status: outdated
-  summary: A nginx log explorer
-  maintainers:
-    - a.proklov@rosa.ru
-  licenses:
-    - foo
-  categories:
-    - System/Servers
-- repo: rosa_13
-  subrepo: contrib/release
-  srcname: rhit
-  binnames:
-    - rhit
-  visiblename: rhit
-  version: 2.0.4
-  origversion: 2.0.4-1
-  status: newest
-  summary: A nginx log explorer
-  maintainers:
-    - a.proklov@rosa.ru
-  licenses:
-    - MIT
-  categories:
-    - System/Servers
 - repo: arch
   subrepo: extra
   srcname: rhit
@@ -94,9 +62,9 @@
   srcname: rhit
   binname: rhit
   visiblename: rhit
-  version: 2.0.4
-  origversion: 2.0.4-2
-  status: newest
+  version: 2.0.1
+  origversion: 2.0.1-1
+  status: outdated
   summary: A nginx log explorer
   licenses:
     - MIT
@@ -105,9 +73,9 @@
   srcname: rhit
   binname: rhit
   visiblename: rhit
-  version: 2.0.4
-  origversion: 2.0.4-2
-  status: newest
+  version: 2.0.1
+  origversion: 2.0.1-1
+  status: outdated
   summary: A nginx log explorer
   licenses:
     - MIT
@@ -133,3 +101,35 @@
   summary: A nginx log explorer
   licenses:
     - MIT
+- repo: rosa_2019_1
+  subrepo: contrib/release
+  srcname: rhit
+  binnames:
+    - rhit
+  visiblename: rhit
+  version: 2.0.3
+  origversion: 2.0.3-1
+  status: outdated
+  summary: A nginx log explorer
+  maintainers:
+    - a.proklov@rosa.ru
+  licenses:
+    - foo
+  categories:
+    - System/Servers
+- repo: rosa_13
+  subrepo: contrib/release
+  srcname: rhit
+  binnames:
+    - rhit
+  visiblename: rhit
+  version: 2.0.4
+  origversion: 2.0.4-1
+  status: newest
+  summary: A nginx log explorer
+  maintainers:
+    - a.proklov@rosa.ru
+  licenses:
+    - MIT
+  categories:
+    - System/Servers
